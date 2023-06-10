@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="back.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="demo" style="background-image:url(del.jpg.jpg);width:100%;height:330px;"></div>
+
+    <nav>
+        <ul><strong>
+            <li><a href="home.html" >HOME</a></li>
+            <li><a href="online.html"style="color:rgb(8, 145, 26);-webkit-text-stroke:0.5px rgb(0, 0, 0);background-image: linear-gradient(to bottom right,rgb(255, 225, 0),rgb(255, 255, 255));">ONLINE</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="reviews.html">REVIEWS</a></li>
+            <li><a href="contact.html">ABOUT US</a></li>
+        
+        </strong></ul>
+    </nav>
+    <strong><h1 style="font-size:70px;padding-bottom: 30px;color:crimson;text-align:center;">Online Vegetable Delivery</h1></strong>
+    <div class="vega">
+        <div class="tables"><p><b>Ash Gourd</b></p><img src="veg1.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Bitter Gourd</b></p><img src="veg2.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Potato</b></p><img src="veg3.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Tamato</b></p><img src="veg4.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('4').innerHTML),'4')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="4">0</div><button onclick="rem(Number.parseInt(document.getElementById('4').innerHTML),'4')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Onions</b></p><img src="veg5.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('5').innerHTML),'5')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="5">0</div><button onclick="rem(Number.parseInt(document.getElementById('5').innerHTML),'5')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Cauliflower</b></p><img src="veg6.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('6').innerHTML),'6')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="6">0</div><button onclick="rem(Number.parseInt(document.getElementById('6').innerHTML),'6')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Capsicum</b></p><img src="veg8.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('7').innerHTML),'7')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="7">0</div><button onclick="rem(Number.parseInt(document.getElementById('7').innerHTML),'7')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Ladies Finger</b></p><img src="veg7.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('8').innerHTML),'8')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="8">0</div><button onclick="rem(Number.parseInt(document.getElementById('8').innerHTML),'8')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Brinjal</b></p><img src="veg9.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('9').innerHTML),'9')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="9">0</div><button onclick="rem(Number.parseInt(document.getElementById('9').innerHTML),'9')"> remove </button></div></div>
+
+        <div class="tables"><p><b>Carrot</b></p><img src="veg10.jpg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('10').innerHTML),'10')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="10">0</div><button onclick="rem(Number.parseInt(document.getElementById('10').innerHTML),'10')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('11').innerHTML),'11')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="11">0</div><button onclick="rem(Number.parseInt(document.getElementById('11').innerHTML),'11')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('12').innerHTML),'12')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="12">0</div><button onclick="rem(Number.parseInt(document.getElementById('12').innerHTML),'12')"> remove </button></div></div>
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('13').innerHTML),'13')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="13">0</div><button onclick="rem(Number.parseInt(document.getElementById('13').innerHTML),'13')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('14').innerHTML),'14')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="14">0</div><button onclick="rem(Number.parseInt(document.getElementById('14').innerHTML),'14')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('15').innerHTML),'15')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="15">0</div><button onclick="rem(Number.parseInt(document.getElementById('15').innerHTML),'15')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('16').innerHTML),'16')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="16">0</div><button onclick="rem(Number.parseInt(document.getElementById('16').innerHTML),'16')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('17').innerHTML),'17')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="17">0</div><button onclick="rem(Number.parseInt(document.getElementById('17').innerHTML),'17')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('18').innerHTML),'18')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="18">0</div><button onclick="rem(Number.parseInt(document.getElementById('18').innerHTML),'18')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('19').innerHTML),'19')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="19">0</div><button onclick="rem(Number.parseInt(document.getElementById('19').innerHTML),'19')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('20').innerHTML),'20')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="20">0</div><button onclick="rem(Number.parseInt(document.getElementById('20').innerHTML),'20')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('21').innerHTML),'21')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="21">0</div><button onclick="rem(Number.parseInt(document.getElementById('21').innerHTML),'21')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('22').innerHTML),'22')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="22">0</div><button onclick="rem(Number.parseInt(document.getElementById('22').innerHTML),'22')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('23').innerHTML),'23')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="23">0</div><button onclick="rem(Number.parseInt(document.getElementById('23').innerHTML),'23')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('24').innerHTML),'24')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="24">0</div><button onclick="rem(Number.parseInt(document.getElementById('24').innerHTML),'24')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('25').innerHTML),'25')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="25">0</div><button onclick="rem(Number.parseInt(document.getElementById('25').innerHTML),'25')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('26').innerHTML),'26')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="26">0</div><button onclick="rem(Number.parseInt(document.getElementById('26').innerHTML),'26')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('27').innerHTML),'27')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="27">0</div><button onclick="rem(Number.parseInt(document.getElementById('27').innerHTML),'27')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('28').innerHTML),'28')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="28">0</div><button onclick="rem(Number.parseInt(document.getElementById('28').innerHTML),'28')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('29').innerHTML),'29')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="29">0</div><button onclick="rem(Number.parseInt(document.getElementById('29').innerHTML),'29')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('30').innerHTML),'30')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="30">0</div><button onclick="rem(Number.parseInt(document.getElementById('30').innerHTML),'30')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('31').innerHTML),'31')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="31">0</div><button onclick="rem(Number.parseInt(document.getElementById('31').innerHTML),'31')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('32').innerHTML),'32')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="32">0</div><button onclick="rem(Number.parseInt(document.getElementById('32').innerHTML),'32')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('33').innerHTML),'33')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="33">0</div><button onclick="rem(Number.parseInt(document.getElementById('33').innerHTML),'33')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('1').innerHTML),'1')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="1">0</div><button onclick="rem(Number.parseInt(document.getElementById('1').innerHTML),'1')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('2').innerHTML),'2')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="2">0</div><button onclick="rem(Number.parseInt(document.getElementById('2').innerHTML),'2')"> remove </button></div></div>
+
+        <div class="tables"><p><b>hi</b></p><img src="conta1.jpeg"><div style="display:flex;justify-content:center;align-items:center;"><button onclick="add(Number.parseInt(document.getElementById('3').innerHTML),'3')"> add </button><div style="margin-bottom:15px;padding:0px;font-size: larger;"id="3">0</div><button onclick="rem(Number.parseInt(document.getElementById('3').innerHTML),'3')"> remove </button></div></div>
+
+        
+
+
+    </div>
+
+    <script>
+        function rem(a,num) {
+        if(a==0){
+            document.getElementById(num).innerHTML=0;
+        
+        }
+        else{
+        
+          document.getElementById(num).innerHTML=a-1;
+        }
+        }
+        function add(a,num){
+        document.getElementById(num).innerHTML =a+1;
+        }
+    </script>
+
+    <footer>
+        <h1 style="color:rgb(246, 255, 0);font-size:50px;">... ABOUT  US ...</h1><pre>
+
+        </pre>
+        <div class="foo">
+            <div class="ad">
+                <pre style="font-size:28px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(0, 255, 255)">JEEDIMETLA
+                </pre>
+                <p>Jeedimetla Main Road Ganesh Nagar, Jeedimetla, Jeedimetla Main Road, Dee Nagar, Balanagar, Hyderabad, Telangana 500037</p>
+            </div>
+            <div class="ad">
+                <pre style="font-size:28px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(0, 255, 255)">               CHINTHAL                    
+                </pre>
+                <p>Plot no.12, First Floor, Chick Blast Restaurant,Pawar Estate, HMT Main Road, opp. Ganesh Jewellers, Chinthal, Hyderabad, Telangana 500055</p>
+            </div>
+            <div class="ad">
+                <pre style="font-size:28px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(0, 255, 255)">SHAPUR NAGAR
+                </pre>
+                <p>1st Floor, Beside Ranga Theatre, Shapur Nagar, 101, Medak - Hyderabad Rd, Hyderabad, Telangana 500055</p>
+            </div>
+        </div>
+        <hr>
+        <h1 style="margin-top:2%; color:rgb(250, 3, 250)">CONTENTS</h1>
+        <div class="nfoo">
+            <div class="flist">
+                <h3>HOME</h3>
+                <ul>
+                    <li>Why to choose Organic</li>
+                    <li>why we are the best</li>
+                    <li>Quality,Fresh,Price</li>
+                    <li>Our Branches</li>
+
+                </ul>
+            </div>
+            <div class="flist">
+                <h3>OUR SERVICES</h3>
+                <ul>
+                    <li>Visit Store</li>
+                    <li>Online Store</li>
+                    <li>Fast Delivery</li>
+
+                </ul>
+            </div>
+            <div class="flist">
+                <h3>ONLINE</h3>
+                <ul>
+                    <li>What we sell online</li>
+                    <li>Vegitables / Fruits</li>
+                    <li>Milk products</li>
+                    <li>Organic Snacks</li>
+
+                </ul>
+            </div>
+            <div class="flist">
+                <h3>REVIEWS</h3>
+                <ul>
+                    <li>Rating and Reviews</li>
+                    <li>What Coustomers Say</li>
+                    <li>Happy Clients</li>
+
+                </ul>
+            </div>
+            <div class="flist">
+                <h3>CONTACT US</h3>
+                <ul>
+                    <li>Store Visit</li>
+                    <li>Call or Mobile</li>
+                    <li>Social Media</li>
+                    <li>Our Farmers</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="hrr" style="width:40%;text-align: center;margin-left: 30%;">
+            <hr>
+
+        </div>
+        <div class="social">
+            <a href="#" class="fa fa-facebook" style="padding:10px,20px;"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+        </div>
+        <p>.... This website belongs to You  . ThankYou ....</p>
+    </footer>
+</body>
+</html>
